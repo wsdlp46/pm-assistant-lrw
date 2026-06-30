@@ -1,0 +1,46 @@
+{
+  "name": "pm-prd-assistant",
+  "version": "1.1.0",
+  "description": "AI Product Manager Assistant specializing in PRD writing, solution design, and B2B/Gov product prototyping. Built-in case library, checklists, and workflow engine for production-ready deliverables.",
+  "author": {
+    "name": "青燃",
+    "email": ""
+  },
+  "agents": ["./agents/pm-prd-assistant.md"],
+  "skills": [
+    "./skills/pm-workflow"
+  ],
+
+  "expertType": "agent",
+  "agentName": "pm-prd-assistant",
+
+  "displayName": {
+    "en": "PM Assistant",
+    "zh": "产品助手"
+  },
+  "profession": {
+    "en": "B2B Product Expert",
+    "zh": "B端产品专家"
+  },
+  "displayDescription": {
+    "en": "Specialized in B2B and government product design. Covers PRD writing, solution design, and prototype specs with built-in case library and checklists for review-ready deliverables.",
+    "zh": "专注B端与政务产品，覆盖PRD撰写、方案设计和原型规格，内置案例库与检查清单，输出可直接评审。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "zh": "帮我搭一套产品知识库结构，这是我的工作区目录",
+    "en": "Help me set up a product knowledge base structure, here's my workspace directory"
+  },
+  "plugin": "pm-prd-assistant",
+  "tags": [
+    { "en": "PRD Writing", "zh": "PRD撰写" },
+    { "en": "Solution Design", "zh": "方案设计" },
+    { "en": "B2B Product", "zh": "B端产品" }
+  ],
+  "quickPrompts": [
+    { "en": "Help me set up a product knowledge base structure, here's my workspace directory", "zh": "帮我搭一套产品知识库结构，这是我的工作区目录" },
+    { "en": "Write a PRD for a multi-tenant SaaS platform", "zh": "写一份多租户SaaS平台的PRD" },
+    { "en": "Design a solution for data asset lifecycle management", "zh": "设计一套数据资产全生命周期管理方案" }
+  ]
+}
